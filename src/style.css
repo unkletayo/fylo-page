@@ -1,0 +1,58 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.links a {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.img {
+  background-image: url('../dist/images/illustration-intro.png');
+  height: 450px;
+  width: 100%;
+}
+
+.showcase-b {
+  background-image: url('../dist/images/bg-curvy-mobile.svg');
+}
+
+.cta-text {
+  color: hsl(176, 68%, 64%);
+  border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+.cta {
+  background-color: hsl(176, 68%, 64%);
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  color: hsl(176, 68%, 64%);
+  background-color: #fff;
+}
+
+.sec-2 {
+  background-image: url('../dist/images/illustration-stay-productive.png');
+  height: 400px;
+  width: 100%;
+}
+
+.testimonial {
+  background-color: hsl(219, 30%, 18%);
+}
+
+.cta-bg {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.footer {
+  background-color: hsl(216, 53%, 9%);
+}
