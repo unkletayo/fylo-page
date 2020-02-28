@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
+  "homepage": "https://unkletayo.github.io/fylo-dark",
   "scripts": {
-    "build:css": "tailwind build src/style.css -o dist/style.css"
+    "build:css": "tailwind build src/style.css -o dist/style.css",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "tailwindcss": "^1.2.0"
   }
 }
