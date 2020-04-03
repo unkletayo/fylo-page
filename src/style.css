@@ -40,7 +40,7 @@ body {
 }
 
 .sec-2 {
-  background-image: url('../dist/images/illustration-stay-productive.png');
+  background-image: url('dist/images/illustration-stay-productive.png');
   height: 400px;
   width: 100%;
 }
