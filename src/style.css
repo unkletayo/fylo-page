@@ -14,13 +14,13 @@ body {
 }
 
 .img {
-  background-image: url('../dist/images/illustration-intro.png');
+  background-image: url('/dist/images/illustration-intro.png');
   height: 450px;
   width: 100%;
 }
 
 .showcase-b {
-  background-image: url('../dist/images/bg-curvy-mobile.svg');
+  background-image: url('/dist/images/bg-curvy-mobile.svg');
 }
 
 .cta-text {

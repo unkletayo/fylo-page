@@ -1,3 +1,13 @@
 .DS_Store
-node_modules/
+
 Designs/
+
+node_modules/
+
+tailwind.configg.js
+
+.firebase/
+
+package-lock.json
+
+style-guide.md
